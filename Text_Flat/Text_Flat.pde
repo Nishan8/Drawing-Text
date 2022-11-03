@@ -30,7 +30,8 @@ rect(titleX, titleY, titleWidth, titleHeight);
 fill(purple); //Ink
 textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
 //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASELINE ]
-fontSize = 50;
+fontSize = 51;
 textFont(titleFont, fontSize);
 text( title, titleX, titleY, titleWidth, titleHeight);
 fill(resetDefaultInk);
+//End Main Program
